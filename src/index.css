@@ -1,0 +1,120 @@
+@import "tailwindcss";
+
+:root {
+  --color-primary: #11141A;
+  --color-primary-light: #1A1F29;
+  --color-accent: #D97706; /* Amber Gold accent */
+  --color-accent-hover: #B45309;
+  --color-accent-light: rgba(217, 119, 6, 0.15);
+  --color-dark: #0A0C0F;
+  --color-surface: #161A22;
+  --color-surface-hover: #1F2430;
+  --color-border: #2A3140;
+  --color-text-main: #F3F4F6;
+  --color-text-muted: #9CA3AF;
+}
+
+/* Custom theme color presets */
+[data-theme="amber"] {
+  --color-accent: #D97706;
+  --color-accent-hover: #B45309;
+  --color-accent-light: rgba(217, 119, 6, 0.15);
+}
+
+[data-theme="orange"] {
+  --color-accent: #EA580C;
+  --color-accent-hover: #C2410C;
+  --color-accent-light: rgba(234, 88, 12, 0.15);
+}
+
+[data-theme="blue"] {
+  --color-accent: #2563EB;
+  --color-accent-hover: #1D4ED8;
+  --color-accent-light: rgba(37, 99, 235, 0.15);
+}
+
+[data-theme="bronze"] {
+  --color-accent: #B45309;
+  --color-accent-hover: #92400E;
+  --color-accent-light: rgba(180, 83, 9, 0.15);
+}
+
+[data-theme="emerald"] {
+  --color-accent: #10B981;
+  --color-accent-hover: #059669;
+  --color-accent-light: rgba(16, 185, 129, 0.15);
+}
+
+[data-theme="ruby"] {
+  --color-accent: #DC2626;
+  --color-accent-hover: #B91C1C;
+  --color-accent-light: rgba(220, 38, 38, 0.15);
+}
+
+[data-theme="purple"] {
+  --color-accent: #7C3AED;
+  --color-accent-hover: #6D28D9;
+  --color-accent-light: rgba(124, 58, 237, 0.15);
+}
+
+[data-theme="yellow"] {
+  --color-accent: #EAB308;
+  --color-accent-hover: #CA8A04;
+  --color-accent-light: rgba(234, 179, 8, 0.15);
+}
+
+html {
+  scroll-behavior: smooth;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+  background-color: var(--color-dark);
+  color: var(--color-text-main);
+  overflow-x: hidden;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #0A0C0F;
+}
+::-webkit-scrollbar-thumb {
+  background: #2A3140;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-accent);
+}
+
+/* Utility accent helpers */
+.bg-accent {
+  background-color: var(--color-accent);
+}
+.text-accent {
+  color: var(--color-accent);
+}
+.border-accent {
+  border-color: var(--color-accent);
+}
+.hover\:bg-accent-hover:hover {
+  background-color: var(--color-accent-hover);
+}
+.focus\:ring-accent:focus {
+  --tw-ring-color: var(--color-accent);
+}
+
+/* Blueprint grid effect */
+.bg-blueprint {
+  background-size: 40px 40px;
+  background-image: 
+    linear-gradient(to right, rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+}
+
+.bg-dot-grid {
+  background-size: 24px 24px;
+  background-image: radial-gradient(circle, rgba(255, 255, 255, 0.07) 1px, transparent 1px);
+}
