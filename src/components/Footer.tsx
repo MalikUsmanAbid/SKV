@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
-import { HardHat, Phone, Mail, MapPin, ChevronRight, X, ShieldCheck } from 'lucide-react';
+import { Phone, Mail, MapPin, ChevronRight, X, ShieldCheck } from 'lucide-react';
 import { useSiteContext } from '../context/SiteContext';
 import { PrivacyPolicyModal } from './PrivacyPolicyModal';
+import logo from '../assets/images/skv_logo_dark_theme_1786245182064.jpg';
 
 interface FooterProps {
   onOpenAdminModal?: () => void;
@@ -33,11 +34,9 @@ export const Footer: React.FC<FooterProps> = ({ onOpenAdminModal }) => {
           {/* Brand Info */}
           <div className="lg:col-span-4 space-y-4">
             <div className="flex items-center gap-3">
-              <div className="w-9 h-9 rounded-lg bg-accent flex items-center justify-center text-slate-950">
-                <HardHat className="w-5 h-5 font-bold" />
-              </div>
+              <img src={logo} alt="SKG Builders & Developers" className="h-12 w-auto object-contain" />
               <span className="text-lg font-black tracking-wider text-white uppercase font-mono">
-                SKV <span className="text-accent font-sans">CONSTRUCTION</span>
+                SKG <span className="text-accent font-sans">BUILDERS & DEVELOPERS</span>
               </span>
             </div>
 

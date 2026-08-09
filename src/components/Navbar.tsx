@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import { HardHat, Phone, Menu, X, ChevronRight, ShieldCheck } from 'lucide-react';
+import { Phone, Menu, X, ChevronRight, ShieldCheck } from 'lucide-react';
 import { useSiteContext } from '../context/SiteContext';
+import logo from '../assets/images/skv_logo_dark_theme_1786245182064.jpg';
 
 interface NavbarProps {
   onOpenQuoteModal: () => void;
@@ -81,12 +82,10 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenQuoteModal, onOpenAdminMod
             className="flex items-center gap-3 group focus:outline-none focus:ring-2 focus:ring-accent rounded-lg p-1"
             id="nav-logo"
           >
-            <div className="w-10 h-10 rounded-lg bg-accent flex items-center justify-center text-white shadow-lg transition-transform group-hover:scale-105">
-              <HardHat className="w-6 h-6 text-slate-950 font-bold" />
-            </div>
+            <img src={logo} alt="SKG Builders & Developers" className="h-12 w-auto object-contain transition-transform group-hover:scale-105" />
             <div className="flex flex-col">
               <span className="text-xl font-extrabold tracking-wider text-white uppercase font-mono flex items-center gap-1">
-                SKV <span className="text-accent font-sans">CONSTRUCTION</span>
+                SKG <span className="text-accent font-sans">BUILDERS & DEVELOPERS</span>
               </span>
               <span className="text-[10px] tracking-widest text-gray-400 uppercase font-medium">
                 Infrastructure & Building

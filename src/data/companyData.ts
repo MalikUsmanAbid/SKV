@@ -5,15 +5,15 @@ import aboutEngineeringImg from '../assets/images/skv_about_engineering_17862442
 import infrastructureImg from '../assets/images/skv_project_infrastructure_1786244295485.jpg';
 
 export const companyInfo: CompanyInfo = {
-  name: 'SKV Construction',
-  legalName: 'SKV Infrastructure & Construction Group Pvt. Ltd.',
+  name: 'SKG Builders & Developers',
+  legalName: 'SKG Builders & Developers',
   tagline: 'Building Excellence. Creating the Future.',
   heroHeadline: 'Building Excellence. Creating the Future.',
-  heroDescription: 'SKV Construction delivers reliable construction, infrastructure, and development solutions with an uncompromising commitment to quality, safety, and professional execution.',
-  aboutStory: 'SKV Construction was established to redefine engineering standards across residential, commercial, industrial, and public infrastructure developments. Through meticulous planning, advanced technology, and skilled craftsmanship, we transform complex architectural visions into enduring physical landmarks.',
+  heroDescription: 'SKG Builders & Developers delivers reliable construction, infrastructure, and development solutions with an uncompromising commitment to quality, safety, and professional execution.',
+  aboutStory: 'SKG Builders & Developers was established to redefine engineering standards across residential, commercial, industrial, and public infrastructure developments. Through meticulous planning, advanced technology, and skilled craftsmanship, we transform complex architectural visions into enduring physical landmarks.',
   mission: 'To deliver superior construction services by applying rigorous engineering precision, sustainable building practices, and transparent project governance that exceeds client expectations.',
   vision: 'To be the premier multi-disciplinary construction partner recognized globally for structural integrity, zero-accident site culture, and transformative urban infrastructure.',
-  qualityCommitment: 'Every project under SKV Construction undergoes multi-stage structural audits, certified material quality testing, and ISO 9001 quality management protocols from groundbreaking to final handover.',
+  qualityCommitment: 'Every project under SKG Builders & Developers undergoes multi-stage structural audits, certified material quality testing, and ISO 9001 quality management protocols from groundbreaking to final handover.',
   safetyCommitment: 'We enforce a strict Zero-Harm site policy. All site staff, sub-contractors, and engineering teams operate under OSHA-compliant health, safety, and environment (HSE) guidelines.',
   phone: '+1 (800) 555-0198',
   email: 'contact@skvconstruction.com',

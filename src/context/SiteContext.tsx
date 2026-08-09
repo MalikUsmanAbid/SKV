@@ -22,7 +22,7 @@ import {
 } from '../data/companyData';
 import { sanitizeInput } from '../utils/security';
 
-const STORAGE_KEY = 'skv_construction_site_data_v1';
+const STORAGE_KEY = 'skg_builders_site_data_v1';
 
 export interface SiteDataState {
   activeTheme: string;
