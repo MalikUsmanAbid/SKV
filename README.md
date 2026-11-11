@@ -21,7 +21,7 @@ These five original illustrations summarize the documented project. They are **d
 
 **Scope and verification:** Requires configured Supabase and server environment variables. No client results or certifications are claimed.
 
-[Developer portfolio](https://developer-folio-nov04-ab.glovedlark8.chatgpt.site) (ChatGPT sign-in required) · [Usman Dev](https://github.com/MalikUsmanAbid)
+[Developer portfolio](https://malikusmandev.vercel.app) · [Usman Dev](https://github.com/MalikUsmanAbid)
 
 ---
 
