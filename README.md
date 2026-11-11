@@ -1,3 +1,5 @@
+<p align="center"><img src="https://raw.githubusercontent.com/MalikUsmanAbid/MalikUsmanAbid/main/assets/usman-dev-logo.png" alt="Usman Dev — Full-Stack Developer" width="120" /></p>
+
 # SKV Construction
 
 
@@ -40,3 +42,6 @@ Production website for SKV Construction, built with React, Vite, Vercel Function
 3. Deploy. The public site reads shared content from Supabase; authenticated admin changes and quote requests are stored there.
 
 Never expose `SUPABASE_SERVICE_ROLE_KEY` in browser code or commit `.env.local`.
+## Developer contact
+
+[Email](mailto:usmandev234@gmail.com) · [WhatsApp](https://wa.me/923157543808) · [Facebook](https://www.facebook.com/profile.php?id=61594398140960) · [GitHub](https://github.com/MalikUsmanAbid)
